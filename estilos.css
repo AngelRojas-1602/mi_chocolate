@@ -1,0 +1,14 @@
+p {
+    font-size:70px ;
+    font-weight: 700;
+}
+
+.image-cho {
+    background-image: url(https://www.vivosano.org/wp-content/uploads/beneficios-chocolate.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 350px;
+}
+.video-ins {
+    height: 350px;
+}
