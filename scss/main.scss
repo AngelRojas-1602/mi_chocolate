@@ -1,7 +1,38 @@
 @use 'global' as *;
 
 .image-cho {
-    color:#fff;
     display:flex;
     justify-content: center;
+    & > p {
+        font-size:70px ;
+        font-weight: 700;
+    }
+}
+// nav {
+//     .navbar-nav {
+//         margin-right:20px ;
+//         margin-left:20px ;
+//     }
+// }
+
+.card-group {
+    height: 800px;
+    padding: 5%;
+    .card {
+        img {
+            height: 35%;
+        }
+        display: flex;
+        align-items: center;
+        .card-body {
+            & > h5 {
+                font-size: 20px;
+                font-weight: 700;
+            }
+            & > p {
+                font-size:15px ;
+                font-weight: 700;
+            }
+        }
+    }
 }

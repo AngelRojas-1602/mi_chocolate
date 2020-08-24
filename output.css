@@ -1,7 +1,30 @@
 .image-cho {
-  color: #fff;
   display: flex;
   justify-content: center;
+}
+.image-cho > p {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.card-group {
+  height: 800px;
+  padding: 5%;
+}
+.card-group .card {
+  display: flex;
+  align-items: center;
+}
+.card-group .card img {
+  height: 35%;
+}
+.card-group .card .card-body > h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-group .card .card-body > p {
+  font-size: 15px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=output.css.map */
