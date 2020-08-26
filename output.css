@@ -17,6 +17,7 @@
 }
 .card-group .card img {
   height: 35%;
+  width: auto;
 }
 .card-group .card .card-body > h5 {
   font-size: 20px;

@@ -1,8 +1,9 @@
 body {
     background: rgba(32,175,139,0.55);
+    font-family: 'Quicksand', sans-serif
 }
 .image-cho {
-    background-image: url(https://pbs.twimg.com/media/DCAkq1yUIAAVHTp.jpg);
+    background-image: url(https://www.viajea.travel/wp-content/uploads/2020/01/Templo_de_Santo_Domingo_de_Guzm%C3%A1n_Oaxaca-2048x1536.jpg);
     background-size: cover;
     height: 350px;
     display:flex;
@@ -18,7 +19,14 @@ body {
     height: 110px;
 }
 
+.navbar {
+    text-align: center;
+}
 
+.navbar-collapse .form {
+    display:flex;
+    justify-content: end;
+}
 /* .card{
     height: 200px;
 } */
