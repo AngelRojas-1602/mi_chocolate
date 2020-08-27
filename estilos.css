@@ -34,6 +34,11 @@ body{
     height: 200px;
 } */
 
+.btn-outline-success{
+    Color:#d39e00;
+    border-color: #d39e00;
+}
+
 @media (min-width: 992px){
     .navbar-nav{
         text-align: start;
