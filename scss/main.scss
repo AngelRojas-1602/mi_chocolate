@@ -16,15 +16,16 @@
 // }
 
 .card-group {
-    height: 800px;
     padding: 5%;
     .card {
         img {
-            height: 35%;
-            width: auto;
+            padding: 5%;
+            height: 30%;
+            width: 70%;
         }
         display: flex;
         align-items: center;
+        height: 100%;
         .card-body {
             & > h5 {
                 font-size: 20px;
