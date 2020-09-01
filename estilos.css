@@ -39,6 +39,8 @@ body{
     border-color: #d39e00;
 }
 
+
+
 @media (min-width: 992px){
     .navbar-nav{
         text-align: start;

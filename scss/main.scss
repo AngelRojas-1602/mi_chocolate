@@ -8,33 +8,38 @@
         font-weight: 700;
     }
 }
-// nav {
-//     .navbar-nav {
-//         margin-right:20px ;
-//         margin-left:20px ;
-//     }
-// }
 
-.card-group {
+.cartas{
     padding: 5%;
-    .card {
-        img {
-            padding: 5%;
-            height: 30%;
-            width: 70%;
-        }
-        display: flex;
-        align-items: center;
-        height: 100%;
-        .card-body {
-            & > h5 {
-                font-size: 20px;
-                font-weight: 700;
-            }
-            & > p {
-                font-size:15px ;
-                font-weight: 700;
-            }
-        }
+    display: flex;
+    justify-content: center;
+    .recursos{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+// .card-group {
+//     padding: 5%;
+//     .card {
+//         img {
+//             padding: 5%;
+//             height: 30%;
+//             width: 70%;
+//         }
+//         display: flex;
+//         align-items: center;
+//         height: 100%;
+//         .card-body {
+//             & > h5 {
+//                 font-size: 20px;
+//                 font-weight: 700;
+//             }
+//             & > p {
+//                 font-size:15px ;
+//                 font-weight: 700;
+//             }
+//         }
+//     }
+// }

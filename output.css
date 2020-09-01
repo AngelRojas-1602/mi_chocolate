@@ -7,26 +7,15 @@
   font-weight: 700;
 }
 
-.card-group {
+.cartas {
   padding: 5%;
-}
-.card-group .card {
   display: flex;
-  align-items: center;
-  height: 100%;
+  justify-content: center;
 }
-.card-group .card img {
-  padding: 5%;
-  height: 30%;
-  width: 70%;
-}
-.card-group .card .card-body > h5 {
-  font-size: 20px;
-  font-weight: 700;
-}
-.card-group .card .card-body > p {
-  font-size: 15px;
-  font-weight: 700;
+.cartas .recursos {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*# sourceMappingURL=output.css.map */
