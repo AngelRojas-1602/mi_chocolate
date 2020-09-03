@@ -1,13 +1,11 @@
 body{
-    background-image:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(img/bg.jpg);
+    background-image:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(img/Prueba03.png);
     background-attachment:fixed;
     background-position:center;
     background-size:cover;
     font-family: 'Quicksand', sans-serif;
 }
 .image-cho {
-    /* background-image: url(https://www.viajea.travel/wp-content/uploads/2020/01/Templo_de_Santo_Domingo_de_Guzm%C3%A1n_Oaxaca-2048x1536.jpg);
-    background-size: cover; */
     height: 800px;
     display:flex;
     align-items: center;
@@ -16,24 +14,15 @@ body{
     height: 350px;
 }
 .Principal {
-    /* background-color: black; */
     color:white;
-    /* mix-blend-mode: multiply ; */
     height: 110px;
 }
 
-/* .navbar {
-    text-align: center;
-} */
 
 .navbar-collapse .form {
     display:flex;
     justify-content: end;
 }
-/* .card{
-    height: 200px;
-} */
-
 .btn-outline-success{
     Color:#d39e00;
     border-color: #d39e00;
